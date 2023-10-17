@@ -1,0 +1,8 @@
+<div>
+  <label for="">測試傳值</label>
+  <input type="text" [ngModel]="testValue" (ngModelChange)="onChangeValue($event)" >
+
+  <div>
+    <button type="button" [routerLink]="'/page-two'">傳至 page two</button>
+  </div>
+</div>
